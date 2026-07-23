@@ -1,0 +1,43 @@
+{
+  "X_freq_columns": [
+    "const",
+    "taille_numeric",
+    "age_numeric",
+    "revenu",
+    "sca",
+    "depalim",
+    "Inondation",
+    "pluies_insuffisantes",
+    "pluies_hors_saison",
+    "sexe_encoded"
+  ],
+  "X_cost_columns": [
+    "const",
+    "taille_numeric",
+    "age_numeric",
+    "revenu",
+    "depalim",
+    "sca",
+    "sci",
+    "Inondation",
+    "pluies_insuffisantes",
+    "pluies_hors_saison",
+    "sexe_encoded"
+  ],
+  "X_log_columns": [],
+  "X_lm_columns": [],
+  "X_da_columns": [
+    "Alim.MoinsPréf",
+    "Emprunt.Alim",
+    "Red.QuantNourr",
+    "Red.NbrRepasJour",
+    "Garder.la.Faim"
+  ],
+  "modeles": {
+    "binomial_negatif": true,
+    "log_gamma": true,
+    "regression_logistique": false,
+    "regression_lineaire": false,
+    "discriminant": true
+  }
+}

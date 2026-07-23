@@ -1,0 +1,81 @@
+﻿ID,département,période.soudure,sexe,taille,age,Inondation,pluies_insuffisantes,pluies_hors_saison,sci,sca,gca,revenu,depalim,part_depalim,Alim.MoinsPréf,Emprunt.Alim,Red.QuantNourr,Red.NbrRepasJour,Garder.la.Faim,type_ass_agr,vulnerabilite
+40,Rufisque,Aout,masculin,1-10,25-49 ans,0,0,0,0,84.0,acceptable,2000000,132290,moins_50%,2,Non,Non,Non,Non,Assurance multirisque climatique,0
+48,Bambey,Juillet,masculin,11-20,50-74 ans,0,1,0,0,14.0,acceptable,300000,173000,moins_50%,4,4,4,2,Non,Assurance revenu / marge,0
+99,Bambey,Juillet,masculin,21-30,50-74 ans,0,1,0,0,60.5,acceptable,1000000,137007,moins_50%,Oui,Non,Non,Non,Non,Assurance indicielle,0
+104,Bambey,Aout,masculin,21-30,50-74 ans,0,1,0,0,28.5,acceptable,3000000,169000,moins_50%,Non,Non,Non,Non,Non,Assurance multirisque climatique,0
+116,Diourbel,Septembre,masculin,41-50,50-74 ans,0,1,0,11,72.0,acceptable,4960000,149030,moins_50%,2,Oui,3,Non,Non,Assurance multirisque climatique,1
+117,Diourbel,Septembre,masculin,41-50,50-74 ans,0,1,0,2,69.0,acceptable,4960000,149030,moins_50%,2,Oui,3,Non,Non,Assurance multirisque climatique,0
+118,Diourbel,Septembre,masculin,51 et +,25-49 ans,0,1,0,14,83.5,acceptable,15000000,448500,moins_50%,Non,Non,Non,Non,Non,Assurance multirisque climatique,1
+119,Diourbel,Aout,masculin,51 et +,25-49 ans,0,1,0,20,71.5,acceptable,15000000,448500,moins_50%,Non,Non,Non,Non,Non,Assurance multirisque climatique,1
+164,Diourbel,Aout,masculin,11-20,25-49 ans,0,0,0,20,70.0,acceptable,2340000,202850,50-65%,2,Non,3,3,Oui,Assurance multirisque climatique,1
+227,Diourbel,Aout,masculin,31-40,25-49 ans,0,1,0,11,55.0,acceptable,3600000,145000,50-65%,2,3,3,Non,Non,Assurance multirisque climatique,1
+231,Diourbel,Juillet,masculin,1-10,50-74 ans,0,1,0,10,42.5,acceptable,300000,135000,50-65%,Non,Non,Non,Non,Non,Assurance revenu / marge,1
+250,Mbacke,Juillet,masculin,51 et +,75 ans et plus,0,1,0,2,28.5,acceptable,2000000,255000,50-65%,Non,Non,Non,Non,Non,Assurance multirisque climatique,0
+257,Mbacke,Juin,masculin,41-50,75 ans et plus,0,1,0,2,56.0,acceptable,6000000,185000,50-65%,3,5,Non,Non,Non,Assurance multirisque climatique,0
+263,Mbacke,Aout,masculin,41-50,50-74 ans,0,1,0,19,83.0,acceptable,2000000,185500,50-65%,Oui,Non,Non,Non,Non,Assurance multirisque climatique,1
+265,Mbacke,Aout,masculin,21-30,75 ans et plus,0,1,0,11,30.5,acceptable,2000000,206000,50-65%,Oui,Non,Non,Non,Non,Assurance multirisque climatique,1
+292,Mbacke,Juin,masculin,11-20,50-74 ans,0,1,0,35,65.0,acceptable,7474000,132000,50-65%,Non,Non,Non,Non,Non,Assurance multirisque climatique,1
+309,Mbacke,Juillet,masculin,11-20,50-74 ans,0,1,0,7,77.0,acceptable,1800000,220400,50-65%,2,Non,Non,Non,Non,Assurance multirisque climatique,1
+310,Mbacke,Septembre,masculin,11-20,50-74 ans,0,1,0,4,17.5,acceptable,1800000,220400,50-65%,2,Non,Non,Non,Non,Assurance multirisque climatique,0
+466,Fatick,Juillet,masculin,21-30,75 ans et plus,0,1,0,7,53.0,acceptable,400000,236000,65-75%,2,3,4,Non,Non,Assurance revenu / marge,1
+486,Fatick,Juillet,masculin,31-40,50-74 ans,0,1,0,7,38.5,acceptable,2000000,152000,65-75%,Oui,4,Non,Non,Non,Assurance multirisque climatique,1
+502,Fatick,Juin,masculin,21-30,,0,1,0,0,98.0,limite,7200000,159500,65-75%,Non,Non,Non,Non,Non,Assurance multirisque climatique,0
+504,Fatick,Juin,masculin,31-40,25-49 ans,0,1,0,7,55.0,acceptable,4200000,133000,65-75%,7,2,Non,Non,Non,Assurance multirisque climatique,1
+516,Fatick,Septembre,masculin,21-30,50-74 ans,0,1,0,13,60.0,acceptable,1800000,149500,65-75%,Non,Non,Non,Non,Non,Assurance multirisque climatique,1
+523,Fatick,Aout,masculin,11-20,50-74 ans,0,1,0,7,66.0,acceptable,1500000,123000,65-75%,Non,Non,Non,Non,Non,Assurance multirisque climatique,1
+524,Fatick,Juillet,masculin,11-20,50-74 ans,1,0,0,16,57.0,acceptable,150000,161250,65-75%,4,3,7,Oui,Non,Assurance rendement,1
+525,Fatick,Juin,masculin,21-30,50-74 ans,0,1,0,7,29.0,acceptable,750000,155000,65-75%,Non,Non,Non,Non,Non,Assurance rendement,1
+577,Foundiougne,Juillet,masculin,11-20,,0,1,0,0,53.0,acceptable,900000,200300,75% +,Non,2,Non,2,Non,Assurance multirisque climatique,0
+583,Foundiougne,Aout,masculin,21-30,25-49 ans,0,1,0,0,66.5,acceptable,2500000,4575000,75% +,Non,Non,Non,Non,Non,Assurance multirisque climatique,0
+587,Foundiougne,Juin,masculin,11-20,50-74 ans,0,1,0,0,80.5,acceptable,900000,123000,75% +,5,4,6,6,Non,Assurance multirisque climatique,0
+597,Foundiougne,Septembre,masculin,1-10,25-49 ans,0,1,1,12,70.0,acceptable,1000000,250106496,75% +,7,5,Oui,Non,Non,Assurance multirisque climatique,1
+601,Foundiougne,Septembre,masculin,11-20,75 ans et plus,0,1,1,1,60.5,acceptable,500000,148000,75% +,7,6,Non,Oui,Non,Assurance multirisque climatique,0
+619,Foundiougne,Juillet,masculin,1-10,50-74 ans,0,1,1,0,82.0,acceptable,2000000,154000,75% +,4,4,4,Non,Non,Assurance multirisque climatique,0
+685,Gossas,Septembre,masculin,1-10,25-49 ans,0,0,0,42,50.0,acceptable,600000,136500,75% +,7,7,Non,Non,Non,Assurance indicielle,1
+686,Gossas,Septembre,masculin,11-20,50-74 ans,0,0,0,29,26.0,acceptable,1000000,125000,75% +,Non,3,Oui,Non,Oui,Assurance indicielle,1
+687,Gossas,Septembre,masculin,31-40,25-49 ans,0,1,1,2,84.5,acceptable,2500000,148500,75% +,2,Non,Oui,Non,Non,Assurance indicielle,0
+695,Gossas,Aout,masculin,51 et +,75 ans et plus,0,1,0,7,14.0,acceptable,7500000,790011,75% +,7,Non,7,7,Non,Assurance indicielle,1
+697,Gossas,Juillet,masculin,21-30,25-49 ans,1,1,1,28,31.0,pauvre,800000,140000,75% +,4,2,4,3,Oui,Assurance indicielle,1
+699,Gossas,Septembre,masculin,1-10,50-74 ans,0,1,0,7,17.0,acceptable,1300000,4390500,75% +,3,4,7,4,Non,Assurance indicielle,1
+703,Gossas,Juillet,masculin,1-10,25-49 ans,0,1,0,11,44.0,acceptable,875000,171000,75% +,5,4,4,Non,Non,Assurance multirisque climatique,1
+704,Gossas,Juillet,masculin,11-20,25-49 ans,0,1,0,0,61.0,acceptable,810000,192500,75% +,4,4,2,Non,Non,Assurance multirisque climatique,0
+709,Gossas,Septembre,masculin,1-10,25-49 ans,0,1,0,1,48.0,acceptable,1117000,1099000,75% +,5,5,3,Non,Non,Assurance multirisque climatique,0
+715,Gossas,Juillet,masculin,31-40,25-49 ans,0,1,0,0,80.0,acceptable,1440000,256003,75% +,7,7,Non,Non,Non,Assurance multirisque climatique,0
+720,Gossas,Juin,masculin,1-10,25-49 ans,0,1,0,7,34.0,acceptable,200000,136000,75% +,2,3,3,Non,Non,Assurance multirisque climatique,1
+730,Gossas,Juin,feminin,11-20,25-49 ans,0,1,0,7,14.0,acceptable,1500000,131500,75% +,4,3,Non,2,Non,Assurance multirisque climatique,1
+733,Birkilane,Septembre,masculin,11-20,50-74 ans,0,1,0,5,70.5,acceptable,400000,138502,75% +,7,Non,Non,Non,Non,Assurance multirisque climatique,0
+747,Birkilane,Juillet,masculin,11-20,50-74 ans,0,0,1,7,70.5,acceptable,400000,137500,75% +,5,Non,4,3,Non,Assurance multirisque climatique,1
+800,Birkilane,Aout,masculin,11-20,25-49 ans,0,0,0,25,23.0,limite,500000,307000,75% +,4,3,3,2,Non,Assurance multirisque climatique,1
+805,Birkilane,Aout,masculin,11-20,50-74 ans,0,1,0,4,28.0,acceptable,400000,245000,75% +,2,2,Non,Oui,Oui,Assurance multirisque climatique,0
+815,Birkilane,Aout,masculin,11-20,25-49 ans,0,1,0,0,75.0,acceptable,260000,144500,75% +,2,5,2,Oui,Non,Assurance multirisque climatique,0
+817,Birkilane,Aout,masculin,11-20,50-74 ans,0,1,0,10,29.5,acceptable,300000,3404000,75% +,4,7,7,4,Non,Assurance multirisque climatique,1
+818,Birkilane,Septembre,masculin,21-30,25-49 ans,0,1,0,2,47.5,acceptable,350000,1123007,75% +,4,Non,7,6,Non,Assurance multirisque climatique,0
+825,Birkilane,Septembre,masculin,31-40,50-74 ans,0,1,0,42,48.0,limite,300000,125000,75% +,7,4,4,4,Non,Assurance multirisque climatique,1
+838,Birkilane,Juillet,masculin,11-20,50-74 ans,0,1,0,3,27.5,acceptable,600000,274450,75% +,4,3,7,6,Non,Assurance multirisque climatique,0
+843,Birkilane,Juillet,masculin,41-50,25-49 ans,0,1,0,3,27.0,pauvre,150000,566500,75% +,Non,Non,Non,Non,Non,Assurance multirisque climatique,0
+859,Birkilane,Septembre,masculin,1-10,25-49 ans,0,1,0,0,79.0,acceptable,1800000,648000,75% +,6,4,Non,3,Non,Assurance multirisque climatique,0
+860,Birkilane,Aout,masculin,1-10,25-49 ans,0,1,0,5,23.0,acceptable,1800000,648000,75% +,6,4,Non,3,Non,Assurance multirisque climatique,0
+866,Kaffrine,Juillet,masculin,21-30,25-49 ans,0,1,1,5,14.0,acceptable,800000,225750,75% +,2,Non,Non,Non,Non,Assurance indicielle,0
+875,Kaffrine,Juillet,masculin,11-20,50-74 ans,0,0,0,11,46.0,acceptable,950000,400000,75% +,2,Oui,Non,Non,Non,Assurance rendement,1
+903,Kaffrine,Juillet,masculin,11-20,75 ans et plus,0,1,0,13,80.0,acceptable,450000,387900,75% +,7,2,2,7,Non,Assurance rendement,1
+914,Kaffrine,Aout,masculin,41-50,50-74 ans,1,1,0,30,43.0,pauvre,400000,122000,75% +,7,5,4,Non,Non,Assurance rendement,1
+921,Kaffrine,Septembre,masculin,11-20,25-49 ans,0,1,0,21,46.5,limite,1000000,262000,75% +,3,Non,Non,Non,Non,Assurance rendement,1
+925,Kaffrine,Septembre,masculin,11-20,25-49 ans,0,1,0,9,26.5,acceptable,1850000,149210,75% +,6,Oui,Non,Oui,Oui,Assurance rendement,1
+942,Kaffrine,Aout,masculin,11-20,25-49 ans,0,1,0,4,42.0,pauvre,1440000,156000,75% +,Non,2,2,3,Non,Assurance rendement,0
+943,Kaffrine,Juillet,masculin,21-30,25-49 ans,0,1,0,15,90.0,acceptable,1800000,123000,75% +,4,3,5,Oui,Non,Assurance rendement,1
+955,Kaffrine,Juin,masculin,11-20,25-49 ans,0,1,0,9,41.0,pauvre,300000,155000,75% +,7,7,5,7,Non,Assurance rendement,1
+1024,Kaffrine,Aout,masculin,11-20,50-74 ans,0,1,0,15,42.0,acceptable,150000,238000,75% +,Non,Non,Non,Non,Non,Assurance rendement,1
+1034,Kaffrine,Juillet,masculin,1-10,25-49 ans,0,1,0,16,95.5,acceptable,400000,137006,75% +,5,4,4,Non,Non,Assurance rendement,1
+1072,Kounghuel,Juin,masculin,31-40,25-49 ans,1,0,0,8,80.5,pauvre,125000,15354552,75% +,3,5,4,5,Oui,Assurance rendement,1
+1083,Kounghuel,Aout,masculin,41-50,50-74 ans,0,1,0,6,54.5,acceptable,1000000,123000,75% +,Non,Non,3,4,Non,Assurance rendement,1
+1084,Kounghuel,Juillet,masculin,41-50,50-74 ans,0,1,0,6,54.5,acceptable,1000000,123000,75% +,Non,Non,3,4,Non,Assurance rendement,1
+1088,Kounghuel,Septembre,masculin,51 et +,75 ans et plus,0,0,0,0,68.5,acceptable,600000,454000,75% +,4,6,6,5,Non,Assurance rendement,0
+1180,Malem Hoddar,Juin,masculin,41-50,50-74 ans,0,1,0,33,39.5,acceptable,250000,170000,75% +,Oui,Non,Non,Non,Non,Assurance indicielle,1
+1181,Malem Hoddar,Juin,masculin,51 et +,50-74 ans,0,1,0,15,60.0,acceptable,500000,135200,75% +,2,Non,Non,Non,Non,Assurance indicielle,1
+1193,Malem Hoddar,Juillet,masculin,11-20,50-74 ans,0,1,0,39,46.0,acceptable,1500000,557000,75% +,2,3,Non,Non,Non,Assurance indicielle,1
+1196,Malem Hoddar,Aout,masculin,21-30,25-49 ans,0,1,0,2,47.5,acceptable,1000000,184000,75% +,Non,Non,Non,Non,Non,Assurance indicielle,0
+1197,Malem Hoddar,Aout,masculin,31-40,50-74 ans,0,1,0,5,81.0,acceptable,1500000,152000,75% +,3,3,3,Oui,Non,Assurance indicielle,0
+1248,Malem Hoddar,Juillet,masculin,11-20,50-74 ans,0,1,0,19,59.5,acceptable,1280000,141300,75% +,7,Non,3,Non,Non,Assurance indicielle,1
+1280,Malem Hoddar,Septembre,masculin,21-30,50-74 ans,0,1,0,35,67.5,acceptable,2110000,128500,75% +,Oui,4,Oui,2,Non,Assurance multirisque climatique,1
+1281,Malem Hoddar,Juin,masculin,21-30,50-74 ans,0,1,0,9,47.0,acceptable,2110000,128500,75% +,Oui,4,Oui,2,Non,Assurance multirisque climatique,1
+1308,Guinguinéo,Aout,masculin,11-20,50-74 ans,0,1,0,2,101.5,acceptable,1500000,180000,75% +,Oui,3,3,Non,Non,Assurance indicielle,0
