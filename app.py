@@ -192,7 +192,7 @@ with st.sidebar:
 # PRÉDICTION
 # ============================================================================
 
-if st.sidebar.button("🔮 Prédire", type="primary", use_container_width=True):
+if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     
     # Préparation des données
     sexe_encoded = 0 if sexe == "Masculin" else 1
@@ -286,7 +286,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", use_container_width=True):
         ]
     }
     
-    st.dataframe(pd.DataFrame(details), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(details), width='stretch', hide_index=True)
     
     # Graphique de risque
     st.subheader("📊 Niveau de risque")
