@@ -61,7 +61,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Titre
-st.markdown('<p class="main-header">🌾 Prédiction des Indemnisations Agricoles</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header"> Prédiction des Indemnisations Agricoles</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Application basée sur les modèles économétriques et actuariels</p>', unsafe_allow_html=True)
 st.markdown("---")
 
@@ -77,7 +77,7 @@ def charger_modeles():
     try:
         with open('modeles/model_binomial_negatif.pkl', 'rb') as f:
             modeles['binomial_negatif'] = pickle.load(f)
-        st.sidebar.success("✅ Binomial Négatif")
+        st.sidebar.success(" Binomial Négatif")
     except:
         st.sidebar.error("❌ Binomial Négatif")
         modeles['binomial_negatif'] = None
@@ -165,22 +165,22 @@ def predict_simple(data):
 # ============================================================================
 
 with st.sidebar:
-    st.header("📋 Caractéristiques du ménage")
+    st.header(" Caractéristiques du ménage")
     
-    st.subheader("👨‍👩‍👧‍👦 Démographie")
+    st.subheader(" Démographie")
     taille = st.number_input("Taille du ménage", min_value=1, max_value=50, value=15)
     age = st.number_input("Âge du chef", min_value=18, max_value=100, value=45)
     sexe = st.selectbox("Sexe du chef", ["Masculin", "Féminin"])
     
-    st.subheader("💰 Économie")
+    st.subheader(" Économie")
     revenu = st.number_input("Revenu (FCFA)", min_value=0, max_value=50000000, value=1000000, step=100000)
     depalim = st.number_input("Dépenses alimentaires (FCFA)", min_value=0, max_value=1000000, value=250000, step=10000)
     
-    st.subheader("🍽️ Alimentation")
+    st.subheader(" Alimentation")
     sca = st.number_input("Score de consommation (SCA)", min_value=0, max_value=120, value=60)
     sci = st.number_input("Stratégies de survie (SCI)", min_value=0, max_value=50, value=8)
     
-    st.subheader("🌦️ Chocs climatiques")
+    st.subheader(" Chocs climatiques")
     inondation = st.selectbox("Inondation", ["Non", "Oui"])
     pluies_insuf = st.selectbox("Pluies insuffisantes", ["Non", "Oui"])
     pluies_hs = st.selectbox("Pluies hors saison", ["Non", "Oui"])
@@ -192,7 +192,7 @@ with st.sidebar:
 # PRÉDICTION
 # ============================================================================
 
-if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
+if st.sidebar.button(" Prédire", type="primary", width='stretch'):
     
     # Préparation des données
     sexe_encoded = 0 if sexe == "Masculin" else 1
@@ -219,16 +219,14 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
                 modele_utilise = "Modèles réels entraînés"
             except:
                 freq, cout, proba, classe = predict_simple(data)
-                modele_utilise = "⚠️ Modèles simplifiés (fallback)"
+                modele_utilise = " Modèles simplifiés (fallback)"
         else:
             freq, cout, proba, classe = predict_simple(data)
-            modele_utilise = "⚠️ Modèles simplifiés (fallback)"
+            modele_utilise = " Modèles simplifiés (fallback)"
     
-    # ========================================================================
     # AFFICHAGE DES RÉSULTATS
-    # ========================================================================
     
-    st.markdown("## 📊 Résultats des prédictions")
+    st.markdown("##  Résultats des prédictions")
     st.markdown(f"*{modele_utilise}*")
     st.markdown("---")
     
@@ -237,7 +235,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     with col1:
         st.markdown("""
         <div class="metric-card">
-            <h3>📈 Fréquence d'indemnisation</h3>
+            <h3> Fréquence d'indemnisation</h3>
             <h1 style="color:#2E7D32;">{:.1f}</h1>
             <p><small>{} indemnisation(s) attendue(s)</small></p>
         </div>
@@ -246,7 +244,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     with col2:
         st.markdown("""
         <div class="metric-card">
-            <h3>💰 Coût moyen</h3>
+            <h3> Coût moyen</h3>
             <h1 style="color:#1565C0;">{:,.0f} FCFA</h1>
             <p><small>Coût par indemnisation</small></p>
         </div>
@@ -255,7 +253,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     with col3:
         st.markdown("""
         <div class="metric-card">
-            <h3>⚠️ Vulnérabilité</h3>
+            <h3> Vulnérabilité</h3>
             <h1 style="color:{};">{}</h1>
             <p><small>Probabilité: {:.1f}%</small></p>
         </div>
@@ -263,7 +261,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     
     # Détails
     st.markdown("---")
-    st.subheader("📋 Détails des prédictions")
+    st.subheader(" Détails des prédictions")
     
     details = {
         "Indicateur": [
@@ -289,7 +287,7 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     st.dataframe(pd.DataFrame(details), width='stretch', hide_index=True)
     
     # Graphique de risque
-    st.subheader("📊 Niveau de risque")
+    st.subheader(" Niveau de risque")
     
     fig, ax = plt.subplots(figsize=(10, 2))
     colors = ['#4CAF50', '#FFC107', '#F44336']
@@ -310,29 +308,29 @@ if st.sidebar.button("🔮 Prédire", type="primary", width='stretch'):
     
     # Recommandations
     st.markdown("---")
-    st.subheader("💡 Recommandations")
+    st.subheader(" Recommandations")
     
     if proba >= 0.5:
         st.warning("""
-        **🚨 Recommandations pour les ménages vulnérables :**
-        - ✅ Envisager une assurance agricole adaptée
-        - ✅ Diversifier les sources de revenus
-        - ✅ Adopter des techniques agricoles résilientes
-        - ✅ Créer des systèmes d'épargne pour les périodes de soudure
-        - ✅ Participer aux programmes d'adaptation climatique
+        ** Recommandations pour les ménages vulnérables :**
+        -  Envisager une assurance agricole adaptée
+        -  Diversifier les sources de revenus
+        -  Adopter des techniques agricoles résilientes
+        -  Créer des systèmes d'épargne pour les périodes de soudure
+        -  Participer aux programmes d'adaptation climatique
         """)
     else:
         st.success("""
-        **✅ Recommandations pour les ménages non vulnérables :**
-        - ✅ Maintenir les bonnes pratiques agricoles
-        - ✅ Continuer à diversifier les activités
-        - ✅ Partager les bonnes pratiques avec d'autres ménages
-        - ✅ Renforcer les capacités de résilience
+        ** Recommandations pour les ménages non vulnérables :**
+        -  Maintenir les bonnes pratiques agricoles
+        -  Continuer à diversifier les activités
+        -  Partager les bonnes pratiques avec d'autres ménages
+        -  Renforcer les capacités de résilience
         """)
 
 else:
     # Message d'accueil
-    st.info("👈 **Bienvenue !** Remplissez les caractéristiques du ménage dans le panneau de gauche et cliquez sur **'Prédire'**.")
+    st.info(" **Bienvenue !** Remplissez les caractéristiques du ménage dans le panneau de gauche et cliquez sur **'Prédire'**.")
     
     # Présentation
     st.markdown("---")
@@ -341,7 +339,7 @@ else:
     with col1:
         st.markdown("""
         <div style="text-align:center;">
-            <h2>📈</h2>
+            
             <h3>Fréquence</h3>
             <p>Modèle Binomial Négatif<br>AIC: 549,54</p>
         </div>
@@ -350,7 +348,7 @@ else:
     with col2:
         st.markdown("""
         <div style="text-align:center;">
-            <h2>💰</h2>
+           
             <h3>Coût</h3>
             <p>Modèle Log-Gamma<br>AIC: 2046,67</p>
         </div>
@@ -359,7 +357,7 @@ else:
     with col3:
         st.markdown("""
         <div style="text-align:center;">
-            <h2>⚠️</h2>
+            
             <h3>Vulnérabilité</h3>
             <p>Régression Logistique<br>Précision: 66,25%</p>
         </div>
