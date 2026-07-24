@@ -101,7 +101,26 @@ def charger_modeles():
     return modeles
 
 modeles = charger_modeles()
+##
 
+# Ajouter en haut du fichier
+if 'historique' not in st.session_state:
+    st.session_state.historique = []
+
+# Après chaque prédiction
+st.session_state.historique.append({
+    'Date': pd.Timestamp.now().strftime('%Y-%m-%d %H:%M'),
+    'Fréquence': freq,
+    'Coût': cout,
+    'Vulnérabilité': classe
+})
+
+# Afficher l'historique
+if len(st.session_state.historique) > 0:
+    st.subheader("📜 Historique des prédictions")
+    st.dataframe(pd.DataFrame(st.session_state.historique))
+
+##
 # ============================================================================
 # FONCTIONS DE PRÉDICTION
 # ============================================================================
